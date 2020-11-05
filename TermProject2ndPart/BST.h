@@ -1,4 +1,4 @@
-#pragma once
+
 #ifndef BST_H
 #define BST_H
 /*
@@ -17,7 +17,7 @@
 class BST
 {
 
-private:
+public:
 	//Internal Node Class
 	class Node
 	{
@@ -25,7 +25,7 @@ private:
 		//left child, right child, and the int value
 		Node* left = nullptr;
 		Node* right = nullptr;
-		int value;
+		int value = NULL;
 		
 		
 		Node(int value)
@@ -34,61 +34,66 @@ private:
 			this->left = nullptr;
 			this->right = nullptr;
 		}
-		
-		
+			
 
 		int getVal()
 		{
-			return this->value;
+			return value;
 		}
 		~Node()
 		{
 		}
 	};
-public:
-
 	//Root node of the BST
 	Node* root;
+public:
+
+	
 	
 	//Initialize the BST
 	BST()
 	{
-		root = nullptr;
+		root = nullptr;		
 	}
 
 	//inserts a val into the BST, calling the overloaded function insert
-	void insert(int val)
+	void insert(BST* tree, int val)
 	{
+		
 		root = insert(root, val);
 	}
 
 	//inserts a new integer value into the BST, this does not allow duplicates.
-	Node* insert(Node* node, int val)
+	Node* insert( Node* node, int val)
 	{
 		//This ensures that if the root is null, that it becomes itself a new Node that is not null
 		if (node == nullptr) return new Node(val);
 
 		// if value is less, go left
-		if (val < node->getVal()) node->left = insert(node->left, val);
+		if (val < node->getVal()) node->left = this->insert( node->left, val);
 		//else if value is greater go right
-		else if (val > node->getVal()) node->right = insert(node->right, val);
+		else if (val > node->getVal()) node->right =  this->insert( node->right, val);
 		//if value is equal to the current val, do nothing and return
 		else return node;
+		return node;
 	}
 
 	//Searches the BST and returns true if the value is found, false if not
 	bool contains(int val)
 	{
-		Node* temp = root;
-		//Iterates through the tree, if it reaches a nullptr, breaks the loop and return false
-		//if the value is found, it stops iteration and returns true
-		while (temp != nullptr)
-		{
-			if (val < temp->getVal()) temp = temp->left;
-			else if (val > temp->getVal()) temp = temp->right;
-			else return true;
-		}
-
+			
+			if (root == nullptr) return false;
+			Node* temp = this->root;
+			//Iterates through the tree, if it reaches a nullptr, breaks the loop and return false
+			//if the value is found, it stops iteration and returns true
+			while (temp != nullptr)
+			{
+				if (val < temp->getVal()) temp = temp->left;
+				else if (val > temp->getVal()) temp = temp->right;
+				else return true;
+			}
+		
+		
 		return false;
 	}
 
@@ -112,10 +117,10 @@ public:
 	//Default Destructor
 	~BST()
 	{
-		delete root;
+		
 	}
 	
 };
+#endif
 
 
-#endif // !BST_H

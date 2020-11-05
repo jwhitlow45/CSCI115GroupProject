@@ -1,8 +1,8 @@
 #include <iostream>
-#include "HashTableWChaining.h"
 #include <vector>
 #include <ctime>
 #include <cstdlib>
+#include "HashTableWChaining.h"
 
 
 std::vector<int> twoSum(std::vector<int> vec, int sum)
