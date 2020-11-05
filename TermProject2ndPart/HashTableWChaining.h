@@ -1,4 +1,4 @@
-#pragma once
+
 #ifndef HASH_H
 #define HASH_H
 #include "BST.h"
@@ -22,13 +22,14 @@ private:
 	//returns an index value for a given integer value
 	int hashcode(int val)
 	{
+		if (val < 0) val *= -1;
 		return (27 * val) % tableSize;
 	}
 public:
 	/*Main "table" of the hash table
 	Uses the static variable tableSize to 
 	reserve 10 indexes*/
-	BST* table[tableSize];
+	std::vector<BST*> table;
 
 	HashTable()
 	{
@@ -36,7 +37,7 @@ public:
 		//Initialize each index to point to a freshly created BST
 		for (int i = 0; i < tableSize; i++)
 		{
-			table[i] = new BST();
+			table.push_back(new BST());
 		}
 		return;
 	}
@@ -51,7 +52,7 @@ public:
 	void insert(int val)
 	{
 		int index = this->hashcode(val);
-		if (!table[index]->contains(val)) table[index]->insert(val);
+		if (!table[index]->contains(val)) table[index]->insert(table[index], val);
 
 		return;
 	}
@@ -74,7 +75,14 @@ public:
 		int index = this->hashcode(val);
 		return table[index]->getVal(val);
 	}
-
+	~HashTable()
+	{
+		
+		for (int i = 0; i < tableSize; i++)
+		{
+			delete table[i];
+		}
+	}
 
 };
 
