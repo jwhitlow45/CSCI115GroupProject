@@ -3,11 +3,17 @@
 #include <vector>
 #include <ctime>
 #include <cstdlib>
+
+
 std::vector<int> twoSum(std::vector<int> vec, int sum)
 {
 	if (vec.size() == 0) return vec;
 	std::vector<int> retVec;
+	// Using a hash table that utilizes chaining to store the values already seen
+	// this allows quick access in O(1) time for every element we pass in the main list
 	HashTable seen;
+
+	//currVal is just so i dont have to type vec[i] a lot
 	int currVal;
 	for (unsigned int i = 0; i < vec.size(); i++)
 	{
@@ -18,9 +24,11 @@ std::vector<int> twoSum(std::vector<int> vec, int sum)
 		if (!seen.contains(sum - currVal)) seen.insert(currVal);
 		else
 		{
+			//save the current value
 			retVec.push_back(currVal);
 			//This is a little redundant as i could just push back the sum-currVal, but i wanted to be thorough
 			retVec.push_back(seen.get(sum - currVal));
+			//Now that you have found a pair, break out of the loop
 			break;
 		}
 	}
