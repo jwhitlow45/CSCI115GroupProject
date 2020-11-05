@@ -41,21 +41,27 @@ int main()
 	srand(time(0));
 	std::vector<int> myVec;
 
+	//Add 25 random values up to 35
 	for (int i = 0; i < 25; i++)
 	{
-		myVec.push_back(rand() % 15);
+		myVec.push_back(rand() % 36);
+		//This outputs the values to be able to check correctness
 		std::cout << myVec[i] << " ";
 	}
 	std::cout << "\n\n" << std::endl;
 
+	//initialize the answer vector via the twoSum function, this will have the 2 values that add to 25
+	//if there are any
 	std::vector<int> twoSumVec = twoSum(myVec, 25);
+
+	//output the needed messages, one for an empty list, one for a populated list
 	if (twoSumVec.size() == 0) std::cout << "There are no combinations..." << std::endl;
 	else std::cout << "The two values in the original list that add to 25 are: ";
 	for (int j : twoSumVec)
 	{
 		std::cout << j << " ";
 	}
-	
+	std::cout << "\n" << std::endl;
 
 
 }
