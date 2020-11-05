@@ -1,0 +1,3 @@
+﻿  Source.cpp
+C:\Users\Ryan\Desktop\untitled\CSCI115GroupProject\TermProject2ndPart\Source.cpp(41,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Ryan\Desktop\untitled\CSCI115GroupProject\TermProject2ndPart\BST.h(77): warning C4715: 'BST::insert': not all control paths return a value
