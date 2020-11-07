@@ -1,0 +1,10 @@
+The files "radixSort.h" and "countingSort.h" contain defined functions pertaining to those relevant sorting methods. 
+Each function has identical parameters, an int array, and and int that denotes the number of elements 
+inside that array. 
+
+Functions modify the given array via pass-by-reference, and do not return any explicit data.
+
+radixSort.h contains an overloaded method, that is designed to use another identically named function that does the actual sorting. 
+The overloaded function dynamically allocates and de-allocates memory as it executes, since the functions trade off efficient memory
+for speed. 
+
