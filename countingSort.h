@@ -21,11 +21,13 @@ void countingSort(int* arr, int size)
 	{
 		//catch bad_alloc exception
 		std::cout<<"Memory Could Not Be Allocated, Terminating Function"<<std::endl;
+		return;
 	}
 
 
 	for(int j = 0; j < size; j++)
 	{
+		B[j] = arr[j];
 		//count the number of times a certain value appears
 		C[arr[j]]++;
 	}
@@ -37,25 +39,21 @@ void countingSort(int* arr, int size)
 	for(int k = 1; k <= max; k++)
 	{	
 		// calculate the amount of elements that will come before the last of the current element
-		C[k] = C[k] + C[k-1];
+		C[k] += C[k-1];
 	}
 	
 	//starting from the end, iterate backwards through the original array and place duplicates into the final array
 	for(int l = size-1; l >=0 ; l--)
 	{
-		B[C[arr[l]]] = arr[l];
-		C[arr[l]]--;
+		arr[C[B[l]]] = B[l];
+		C[B[l]]--;
 	}
 
 
 	//De-allocate memory
+	delete[] B;
 	delete[] C;
 	
-	//Rre-write original array
-	for(int i = 0; i < size; i++)
-	{
-		arr[i] = B[i];
-	}
-	delete[] B;		
+	
 }
 
