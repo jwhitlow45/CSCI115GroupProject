@@ -2,7 +2,7 @@
 #include<cmath>
 #include<iostream>
 
-int* radixSort(int* arr, int size, int i)
+void radixSort(int* arr, int size, int radix)
 {
 	
 	try{
