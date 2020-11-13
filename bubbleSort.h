@@ -7,7 +7,7 @@ void bubbleSort(int* arr, int n) { //function takes an array and arraysize as in
 		for (int j = n - 1; j > i; j--) { 
 		//j loop starts at the end of the array and decrements until j = i+1
 			
-			if (arr[j] < a[j - 1]) { 
+			if (arr[j] < arr[j - 1]) { 
 			//compares the elements in pairs starting at the end of the array
 				
 				int temp = arr[j]; //swaps arr[j] and arr[j-1] if arr[j-1] is larger than arr[j]
