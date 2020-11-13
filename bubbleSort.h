@@ -1,8 +1,4 @@
 #pragma once
-#include <iostream>
-#include <array>
-
-using namespace std;
 
 void bubbleSort(int* a, int n) { //bubbleSort using arrays
 	for (int i = 1; i < n; i++) { //loop starts at the beginning
