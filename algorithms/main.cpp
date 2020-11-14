@@ -13,15 +13,9 @@
 #include<vector>
 using namespace std;
 
-//Algorithm Names
 std::vector<string> sortNames = {" ", "Insertion Sort", "Selection Sort", "Bubble Sort", "Merge Sort", "Quick Sort", "Counting Sort", "Radix Sort"};
-
-//File Names, this is subject to change
-vector<string> fileNames = {"smallInputRandom.txt","smallInputReverse.txt","smallInputRandom.txt",  "mediumInputOrder.txt",  "mediumInputReverse.txt",
- "mediumInputRandom.txt","largeInputOrder.txt", "largeInputReverse.txt", "largeInputRandom.txt" };
- 
- //Strucutre to store information about a sorting algorithm 
- //and related data for processing
+//Strucutre to store information about a sorting algorithm 
+//and related data for processing
 struct info
 {
 	string algName;
@@ -29,9 +23,9 @@ struct info
 	string inputState;
 	float algTime;
 };
-
-//Stores all the values gather after running algorithms
-std::vector<info> times;
+	
+	//Stores all the values gather after running algorithms
+	std::vector<info> times;
 
 //Helper function to call the chosen sorting algorithm
 void sort(int* arr, int size, int algNum)
@@ -58,7 +52,7 @@ void sort(int* arr, int size, int algNum)
 	}
 	else if(algNum == 5)
 	{
-		srand(time(0));
+	
 		quickSort(arr, 0, size-1);
 		return;
 	}
@@ -97,12 +91,33 @@ bool checkString(string str)
 	}
 	return true;	
 }
-
-
-int main()
+/*
+void sourceFromFile()
 {
-//Relative path name for the input files, this is subject to change per user
-string relativePathName = "CSCI115GroupProject\\inputs\\";
+	
+	
+	//Relative path name for the input files, this is subject to change per user
+	string relativePathName = "CSCI115GroupProject\\inputs\\";
+	//Algorithm Names
+	std::vector<string> sortNames = {" ", "Insertion Sort", "Selection Sort", "Bubble Sort", "Merge Sort", "Quick Sort", "Counting Sort", "Radix Sort"};
+	
+	//File Names, this is subject to change
+	vector<string> fileNames = {"smallInputRandom.txt","smallInputReverse.txt","smallInputRandom.txt",  "mediumInputOrder.txt",  "mediumInputReverse.txt",
+	 "mediumInputRandom.txt","largeInputOrder.txt", "largeInputReverse.txt", "largeInputRandom.txt" };
+	 
+	 //Strucutre to store information about a sorting algorithm 
+	 //and related data for processing
+	struct info
+	{
+		string algName;
+		int inputSize;
+		string inputState;
+		float algTime;
+	};
+	
+	//Stores all the values gather after running algorithms
+	std::vector<info> times;
+
 	
 //label to easily restart the program
 restart:
@@ -237,7 +252,7 @@ repeat:
 			else 
 			{
 				cout<<"Something Went Wrong..."<<endl;
-				return 0;
+				return;
 			}
 			std::cout<<"Phew...that took: " << secs <<" seconds"<<endl;
 			if(doRepeat)
@@ -294,5 +309,169 @@ repeat:
 		cout<<"==================\n\n"<<endl;
 	}
 	
+}
+*/
+void soruceFromSrand()
+{
+restart:	
+	int inputSize, order, srandSeed, sortChoice, count;
+	std:string inputSizeBuf, orderBuf, srandSeedBuf, sortChoiceBuffer, countBuf, inputState;
+	bool doRepeat = false;
+	
+//=======================================================================================//	
+							/*Input Selection*/
+	std::cout<<"Please Enter Input Size: ";	
+	do{
+		getline(cin, inputSizeBuf);
+	}while(!checkString(inputSizeBuf));	// check string ensures that the input is a number
+	inputSize = stoi(inputSizeBuf, NULL, 0);
+
+//=======================================================================================//	
+							/*Order Selection*/
+
+	std::cout << "Please Choose Input Order:\nAscending(1)\nDescending(2)\nRandomized(3)\n>>: ";
+	do{
+		getline(cin, orderBuf);
+	}while(orderBuf == "" || (orderBuf != "1" && orderBuf != "2" && orderBuf != "3"));
+	order = stoi(orderBuf, NULL, 0);
+	
+	if(order == 3)
+	{
+		cout<<"Please choose Seed Value for RNG: "<<endl;
+		do{
+		getline(std::cin, srandSeedBuf);
+		}while(!checkString(srandSeedBuf));	// check string ensures that the input is a number
+		srandSeed = stoi(srandSeedBuf);
+		srand(srandSeed);
+	}
+	
+//=======================================================================================//	
+							/*Algorithm Selection*/
+	cout<<"Choose Your Algorithm (Queue Smash Bros Theme):"<<endl;
+	std::cout << "Insertion Sort (1)\nSelection Sort(2)\nBubble Sort(3)\nMerge Sort(4)\nQuick Sort(5)\nCounting Sort(6)\nRadix Sort(7)\n>>: ";
+	
+	do{
+		std::getline(std::cin, sortChoiceBuffer);
+	}while(sortChoiceBuffer == "" || (sortChoiceBuffer != "1" && sortChoiceBuffer != "2" && sortChoiceBuffer != "3"
+										&& sortChoiceBuffer != "4" && sortChoiceBuffer != "5" && sortChoiceBuffer != "6"
+										 && sortChoiceBuffer != "7" ));
+	sortChoice = stoi(sortChoiceBuffer, NULL, 0);
+	
+//=======================================================================================//	
+							/*Would You Like Some More*/
+	cout<<"Would you like to automatically repeat this selection? Y/N"<<endl;
+	doRepeat = false;
+	string answer;
+	do{
+		getline(cin, answer);
+	}while(answer != "Y" && answer != "y" && answer != "n"&& answer != "N");
+	if(answer == "Y" || answer == "y")
+	{
+		doRepeat = true;
+		
+		cout<<"How many times would you like this to repeat?"<<endl;
+		string countBuf;
+		do{
+			getline(cin, countBuf);
+		}while(!checkString(countBuf));
+		count = stoi(countBuf ,NULL, 0);
+	}
+repeat:
+//=============================================================================================//
+						/*ARRAY CREATION*/
+						
+	repCount:
+	
+	if(doRepeat)cout<<count<<" more times..."<<endl;
+	//instantiate a new array
+	int* arr = new int[inputSize];
+	
+	//fill with asceding values
+	if(order == 1)
+	{	
+		inputState = "Ascending";
+		for(int i = 0; i < inputSize; i++)
+		{
+			arr[i] = i;
+		}
+	}
+	else if(order == 2)	// fill with descending values
+	{
+		inputState = "Descending";
+		for(int i = inputSize-1; i >= 0; i--)
+		{
+			arr[i] = i;
+		}
+	}
+	else	//default to random
+	{
+		inputState = "Randomized";
+		for(int i = 0; i < inputSize; i++) //the seed sets srand to the same set of random ints, this should allow for the same "random" number sets across machines
+		{
+			arr[i] = rand() % 50000;
+		}
+	}
+	
+//=========================================================================//
+					/*Starting array Sort*/
+			
+			std::cout << "Successful Read\nSuccessful array initiation" << std::endl;
+			cout<<"Starting Sort:  " << sortNames[sortChoice]<<endl;
+			//start time in miliseconds
+			time_t beg = clock();
+			sort(arr, inputSize, sortChoice);
+			//total time = ending time - beginning time
+			time_t time = clock() - beg;
+			//convert to a float for human interpretation
+			float secs = (float)time/CLOCKS_PER_SEC;
+			cout<<"Verifying correctness..."<<endl;
+			//double check the the array is sorted
+			if(isSorted(arr, inputSize)) {
+				cout<<"All Good"<<endl;
+				times.push_back(info{ sortNames[sortChoice], inputSize, inputState, secs});
+			}
+			else 
+			{
+				cout<<"Something Went Wrong..."<<endl;
+				return;
+			}
+			std::cout<<"Phew...that took: " << secs <<" seconds"<<endl;
+			if(doRepeat)
+			{
+				if(count > 1)
+				{
+					delete[] arr;
+					count--;
+					goto repCount;
+				}
+				else doRepeat = false;
+			}
+			//This will replay the current sort for gathering times
+			cout<<"Repeat this sort? Y/N"<<endl;
+			answer = "";
+			getline(cin, answer);
+			if(answer == "y" || answer == "Y")
+			{
+				//clear the current array to save memory
+				delete[] arr;
+				
+				goto repeat; //jump to repeat label
+			}
+			cout<<"Start from the Beginning? Y/N"<<endl;
+			getline(cin, answer);
+			if(answer == "y" || answer == "Y")
+			{
+				delete[] arr;	// delete array to save memory
+				
+				for(int i = 0; i < 50; i++) cout<<endl;	//clear the screen
+				goto restart;	//this jumps to the beginning
+			}
+			
+		
+}
+
+int main()
+{
+	soruceFromSrand();
 
 }
