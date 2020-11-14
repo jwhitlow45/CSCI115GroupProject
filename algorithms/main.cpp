@@ -342,7 +342,7 @@ restart:
 		getline(std::cin, srandSeedBuf);
 		}while(!checkString(srandSeedBuf));	// check string ensures that the input is a number
 		srandSeed = stoi(srandSeedBuf);
-		srand(srandSeed);
+	
 	}
 	
 //=======================================================================================//	
@@ -406,6 +406,7 @@ repeat:
 	else	//default to random
 	{
 		inputState = "Randomized";
+		srand(srandSeed);
 		for(int i = 0; i < inputSize; i++) //the seed sets srand to the same set of random ints, this should allow for the same "random" number sets across machines
 		{
 			arr[i] = rand() % 50000;
