@@ -314,7 +314,8 @@ repeat:
 void soruceFromSrand()
 {
 restart:	
-	int inputSize, order, srandSeed, sortChoice, count;
+	long inputSize;	//Switched to Long to accomodate a larger inputsize
+	int order, srandSeed, sortChoice, count;
 	std:string inputSizeBuf, orderBuf, srandSeedBuf, sortChoiceBuffer, countBuf, inputState;
 	bool doRepeat = false;
 	
@@ -324,7 +325,7 @@ restart:
 	do{
 		getline(cin, inputSizeBuf);
 	}while(!checkString(inputSizeBuf));	// check string ensures that the input is a number
-	inputSize = stoi(inputSizeBuf, NULL, 0);
+	inputSize = stol(inputSizeBuf, NULL, 0);	//switched to stol for proper data conversion
 
 //=======================================================================================//	
 							/*Order Selection*/
