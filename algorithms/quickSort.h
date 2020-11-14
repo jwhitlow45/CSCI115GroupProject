@@ -26,19 +26,19 @@ Partition:
 
 int randPartition(int myArray[], int left, int right) {
 	int i, j, pivot;
-	pivot = left + rand() % (right - left);
+	pivot = (rand() % (right - left)) + left;	// encapsulated rand() % (right-left) and changed order, it works this way for some reason...
 	swap(myArray, left, pivot);
-	i = left + 1;
+	i = left;	//line 34 uses <= which allows you to start from the beginning
 	j = right;
 	while (true) {
 		while (myArray[i] <= myArray[left]) {
-			if (i == right) {
+			if (i >= right) {	// changed == to >= for safety
 				break;
 			}
 			i++;
 		}
-		while (myArray[j] >= myArray[left]) {
-			if (j == left) {
+		while (myArray[j] > myArray[left]) {	//changed >= to >, if >= then it will potentially go out of bounds
+			if (j <= left) {	// changed == to <= for safety
 				break;
 			}
 			j--;
