@@ -4,7 +4,7 @@ void bubbleSort(int* arr, int n) { //function takes an array and arraysize as in
 	for (int i = 1; i < n; i++) { 
 	//i loop starts at the beginning of the array and iterates until the end of the array
 		
-		for (int j = n - 1; j > i; j--) { 
+		for (int j = n - 1; j >= i; j--) { 
 		//j loop starts at the end of the array and decrements until j = i+1
 			
 			if (arr[j] < arr[j - 1]) { 
