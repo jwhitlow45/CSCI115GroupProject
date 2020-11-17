@@ -13,6 +13,7 @@
 #include <vector> // output times
 using namespace std;
 
+static const int GLOBAL_MAX = 200000000;
 std::vector<string> sortNames = {" ", "Insertion Sort", "Selection Sort", "Bubble Sort", "Merge Sort", "Quick Sort", "Heap Sort", "Counting Sort", "Radix Sort"};
 //Strucutre to store information about a sorting algorithm 
 //and related data for processing
@@ -25,7 +26,7 @@ struct info
 };
 	
 	//Stores all the values gather after running algorithms
-	std::vector<info> times;
+std::vector<info> times;
 
 //Helper function to call the chosen sorting algorithm
 void sort(int* arr, int size, int algNum)
@@ -99,80 +100,100 @@ bool checkString(string str)
 
 void soruceFromSrand()
 {
-restart:	
+restart:
 	long inputSize;	//Switched to Long to accomodate a larger inputsize
-	int order, srandSeed, sortChoice, count;
-	std:string inputSizeBuf, orderBuf, srandSeedBuf, sortChoiceBuffer, countBuf, inputState;
+	int order=0, srandSeed = 0, sortChoice=0, count = 0;
+std:string inputSizeBuf, orderBuf, srandSeedBuf, sortChoiceBuffer, countBuf, inputState;
 	bool doRepeat = false;
-	
-//=======================================================================================//	
-							/*Input Selection*/
-	std::cout<<"Please Enter Input Size: ";	
-	do{
-		getline(cin, inputSizeBuf);
-	}while(!checkString(inputSizeBuf));	// check string ensures that the input is a number
-	inputSize = stol(inputSizeBuf, NULL, 0);	//switched to stol for proper data conversion
 
-//=======================================================================================//	
-							/*Order Selection*/
+	//=======================================================================================//	
+								/*Input Selection*/
+	std::cout << "Please Enter Input Size: ";
+	do {
+		getline(cin, inputSizeBuf);
+	} while (!checkString(inputSizeBuf));	// check string ensures that the input is a number
+	try {
+		inputSize = stol(inputSizeBuf, NULL, 0);	//switched to stol for proper data conversion
+	}
+	catch (exception& e)
+	{
+		cout << "Too Large....Setting to System Max" << endl;
+		inputSize = GLOBAL_MAX;
+		cout << inputSize << endl;
+	}
+	//=======================================================================================//	
+								/*Order Selection*/
 
 	std::cout << "Please Choose Input Order:\nAscending(1)\nDescending(2)\nRandomized(3)\n>>: ";
-	do{
+	do {
 		getline(cin, orderBuf);
-	}while(orderBuf == "" || (orderBuf != "1" && orderBuf != "2" && orderBuf != "3"));
+	} while (orderBuf == "" || (orderBuf != "1" && orderBuf != "2" && orderBuf != "3"));
 	order = stoi(orderBuf, NULL, 0);
-	
-	if(order == 3)
+
+	if (order == 3)
 	{
-		cout<<"Please choose Seed Value for RNG: "<<endl;
-		do{
-		getline(std::cin, srandSeedBuf);
-		}while(!checkString(srandSeedBuf));	// check string ensures that the input is a number
+		cout << "Please choose Seed Value for RNG: " << endl;
+		do {
+			getline(std::cin, srandSeedBuf);
+		} while (!checkString(srandSeedBuf));	// check string ensures that the input is a number
 		srandSeed = stoi(srandSeedBuf);
-	
+
 	}
-	
-//=======================================================================================//	
-							/*Algorithm Selection*/
-	cout<<"Choose Your Algorithm (Queue Smash Bros Theme):"<<endl;
+
+	//=======================================================================================//	
+								/*Algorithm Selection*/
+	cout << "Choose Your Algorithm (Queue Smash Bros Theme):" << endl;
 	std::cout << "Insertion Sort (1)\nSelection Sort(2)\nBubble Sort(3)\nMerge Sort(4)\nQuick Sort(5)\nHeap Sort(6)\nCounting Sort(7)\nRadix Sort(8)\n>>: ";
-	
-	do{
+
+	do {
 		std::getline(std::cin, sortChoiceBuffer);
-	}while(sortChoiceBuffer == "" || (sortChoiceBuffer != "1" && sortChoiceBuffer != "2" && sortChoiceBuffer != "3"
-										&& sortChoiceBuffer != "4" && sortChoiceBuffer != "5" && sortChoiceBuffer != "6"
-										 && sortChoiceBuffer != "7" && sortChoiceBuffer != "8" ));
+	} while (sortChoiceBuffer == "" || (sortChoiceBuffer != "1" && sortChoiceBuffer != "2" && sortChoiceBuffer != "3"
+		&& sortChoiceBuffer != "4" && sortChoiceBuffer != "5" && sortChoiceBuffer != "6"
+		&& sortChoiceBuffer != "7" && sortChoiceBuffer != "8"));
 	sortChoice = stoi(sortChoiceBuffer, NULL, 0);
-	
-//=======================================================================================//	
-							/*Would You Like Some More*/
-	cout<<"Would you like to automatically repeat this selection? Y/N"<<endl;
+
+	//=======================================================================================//	
+								/*Would You Like Some More*/
+	cout << "Would you like to automatically repeat this selection? Y/N" << endl;
 	doRepeat = false;
 	string answer;
-	do{
+	do {
 		getline(cin, answer);
-	}while(answer != "Y" && answer != "y" && answer != "n"&& answer != "N");
-	if(answer == "Y" || answer == "y")
+	} while (answer != "Y" && answer != "y" && answer != "n" && answer != "N");
+	if (answer == "Y" || answer == "y")
 	{
 		doRepeat = true;
-		
-		cout<<"How many times would you like this to repeat?"<<endl;
+
+		cout << "How many times would you like this to repeat?" << endl;
 		string countBuf;
-		do{
+		do {
 			getline(cin, countBuf);
-		}while(!checkString(countBuf));
-		count = stoi(countBuf ,NULL, 0);
+		} while (!checkString(countBuf));
+		count = stoi(countBuf, NULL, 0);
 	}
 repeat:
-//=============================================================================================//
-						/*ARRAY CREATION*/
-						
-	repCount:
-	
-	if(doRepeat)cout<<count<<" more times..."<<endl;
+	//=============================================================================================//
+							/*ARRAY CREATION*/
+
+repCount:
+
+	if (doRepeat)cout << count << " more times..." << endl;
+	int* arr;
+tryAgain:
 	//instantiate a new array
-	int* arr = new int[inputSize];
-	
+	try {
+		arr = new int[inputSize];
+	}
+	catch (std::bad_array_new_length& e)
+	{
+		inputSize-=5;
+		goto tryAgain;
+	}
+	catch (std::bad_alloc& e)
+	{
+		inputSize-=5;
+		goto tryAgain;
+	}
 	//fill with asceding values
 	if(order == 1)
 	{	
@@ -271,3 +292,4 @@ int main()
 	soruceFromSrand();
 
 }
+
