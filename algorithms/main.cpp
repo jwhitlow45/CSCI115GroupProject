@@ -206,9 +206,9 @@ tryAgain:
 	else if(order == 2)	// fill with descending values
 	{
 		inputState = "Descending";
-		for(int i = inputSize-1; i >= 0; i--)
+		for(int i = 0; i < inputSize; i++)
 		{
-			arr[i] = i;
+			arr[i] = inputSize-i;
 		}
 	}
 	else	//default to random
