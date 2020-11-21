@@ -1,0 +1,375 @@
+Merge Sort
+Size:1000000
+Order:inOrder
+Time:0.227000 seconds
+
+Merge Sort
+Size:1000000
+Order:inOrder
+Time:0.210000 seconds
+
+Merge Sort
+Size:1000000
+Order:inOrder
+Time:0.217000 seconds
+
+Merge Sort
+Size:1000000
+Order:inOrder
+Time:0.207000 seconds
+
+Merge Sort
+Size:1000000
+Order:inOrder
+Time:0.210000 seconds
+
+Merge Sort
+Size:1000000
+Order:reverseOrder
+Time:0.208000 seconds
+
+Merge Sort
+Size:1000000
+Order:reverseOrder
+Time:0.211000 seconds
+
+Merge Sort
+Size:1000000
+Order:reverseOrder
+Time:0.208000 seconds
+
+Merge Sort
+Size:1000000
+Order:reverseOrder
+Time:0.220000 seconds
+
+Merge Sort
+Size:1000000
+Order:reverseOrder
+Time:0.212000 seconds
+
+Merge Sort
+Size:1000000
+Order:randomOrder
+Time:0.284000 seconds
+
+Merge Sort
+Size:1000000
+Order:randomOrder
+Time:0.285000 seconds
+
+Merge Sort
+Size:1000000
+Order:randomOrder
+Time:0.286000 seconds
+
+Merge Sort
+Size:1000000
+Order:randomOrder
+Time:0.290000 seconds
+
+Merge Sort
+Size:1000000
+Order:randomOrder
+Time:0.287000 seconds
+
+Merge Sort
+Size:5000000
+Order:inOrder
+Time:1.113000 seconds
+
+Merge Sort
+Size:5000000
+Order:inOrder
+Time:1.104000 seconds
+
+Merge Sort
+Size:5000000
+Order:inOrder
+Time:1.102000 seconds
+
+Merge Sort
+Size:5000000
+Order:inOrder
+Time:1.109000 seconds
+
+Merge Sort
+Size:5000000
+Order:inOrder
+Time:1.116000 seconds
+
+Merge Sort
+Size:5000000
+Order:reverseOrder
+Time:1.103000 seconds
+
+Merge Sort
+Size:5000000
+Order:reverseOrder
+Time:1.114000 seconds
+
+Merge Sort
+Size:5000000
+Order:reverseOrder
+Time:1.105000 seconds
+
+Merge Sort
+Size:5000000
+Order:reverseOrder
+Time:1.103000 seconds
+
+Merge Sort
+Size:5000000
+Order:reverseOrder
+Time:1.114000 seconds
+
+Merge Sort
+Size:5000000
+Order:randomOrder
+Time:1.493000 seconds
+
+Merge Sort
+Size:5000000
+Order:randomOrder
+Time:1.502000 seconds
+
+Merge Sort
+Size:5000000
+Order:randomOrder
+Time:1.501000 seconds
+
+Merge Sort
+Size:5000000
+Order:randomOrder
+Time:1.517000 seconds
+
+Merge Sort
+Size:5000000
+Order:randomOrder
+Time:1.494000 seconds
+
+Merge Sort
+Size:10000000
+Order:inOrder
+Time:2.269000 seconds
+
+Merge Sort
+Size:10000000
+Order:inOrder
+Time:2.268000 seconds
+
+Merge Sort
+Size:10000000
+Order:inOrder
+Time:2.291000 seconds
+
+Merge Sort
+Size:10000000
+Order:inOrder
+Time:2.288000 seconds
+
+Merge Sort
+Size:10000000
+Order:inOrder
+Time:2.278000 seconds
+
+Merge Sort
+Size:10000000
+Order:reverseOrder
+Time:2.268000 seconds
+
+Merge Sort
+Size:10000000
+Order:reverseOrder
+Time:2.271000 seconds
+
+Merge Sort
+Size:10000000
+Order:reverseOrder
+Time:2.271000 seconds
+
+Merge Sort
+Size:10000000
+Order:reverseOrder
+Time:2.290000 seconds
+
+Merge Sort
+Size:10000000
+Order:reverseOrder
+Time:2.262000 seconds
+
+Merge Sort
+Size:10000000
+Order:randomOrder
+Time:3.045000 seconds
+
+Merge Sort
+Size:10000000
+Order:randomOrder
+Time:3.060000 seconds
+
+Merge Sort
+Size:10000000
+Order:randomOrder
+Time:3.089000 seconds
+
+Merge Sort
+Size:10000000
+Order:randomOrder
+Time:3.096000 seconds
+
+Merge Sort
+Size:10000000
+Order:randomOrder
+Time:3.056000 seconds
+
+Merge Sort
+Size:100000000
+Order:inOrder
+Time:24.818000 seconds
+
+Merge Sort
+Size:100000000
+Order:inOrder
+Time:24.882000 seconds
+
+Merge Sort
+Size:100000000
+Order:inOrder
+Time:24.993000 seconds
+
+Merge Sort
+Size:100000000
+Order:inOrder
+Time:24.976000 seconds
+
+Merge Sort
+Size:100000000
+Order:inOrder
+Time:25.066000 seconds
+
+Merge Sort
+Size:100000000
+Order:reverseOrder
+Time:24.920000 seconds
+
+Merge Sort
+Size:100000000
+Order:reverseOrder
+Time:24.966000 seconds
+
+Merge Sort
+Size:100000000
+Order:reverseOrder
+Time:25.052000 seconds
+
+Merge Sort
+Size:100000000
+Order:reverseOrder
+Time:25.093000 seconds
+
+Merge Sort
+Size:100000000
+Order:reverseOrder
+Time:24.900000 seconds
+
+Merge Sort
+Size:100000000
+Order:randomOrder
+Time:32.642000 seconds
+
+Merge Sort
+Size:100000000
+Order:randomOrder
+Time:32.486000 seconds
+
+Merge Sort
+Size:100000000
+Order:randomOrder
+Time:32.592000 seconds
+
+Merge Sort
+Size:100000000
+Order:randomOrder
+Time:32.712000 seconds
+
+Merge Sort
+Size:100000000
+Order:randomOrder
+Time:32.629000 seconds
+
+Merge Sort
+Size:200000000
+Order:inOrder
+Time:51.299000 seconds
+
+Merge Sort
+Size:200000000
+Order:inOrder
+Time:51.409000 seconds
+
+Merge Sort
+Size:200000000
+Order:inOrder
+Time:51.273000 seconds
+
+Merge Sort
+Size:200000000
+Order:inOrder
+Time:51.495000 seconds
+
+Merge Sort
+Size:200000000
+Order:inOrder
+Time:51.324000 seconds
+
+Merge Sort
+Size:200000000
+Order:reverseOrder
+Time:51.363000 seconds
+
+Merge Sort
+Size:200000000
+Order:reverseOrder
+Time:51.458000 seconds
+
+Merge Sort
+Size:200000000
+Order:reverseOrder
+Time:51.467000 seconds
+
+Merge Sort
+Size:200000000
+Order:reverseOrder
+Time:51.484000 seconds
+
+Merge Sort
+Size:200000000
+Order:reverseOrder
+Time:51.236000 seconds
+
+Merge Sort
+Size:200000000
+Order:randomOrder
+Time:67.095000 seconds
+
+Merge Sort
+Size:200000000
+Order:randomOrder
+Time:66.894000 seconds
+
+Merge Sort
+Size:200000000
+Order:randomOrder
+Time:66.774000 seconds
+
+Merge Sort
+Size:200000000
+Order:randomOrder
+Time:66.642000 seconds
+
+Merge Sort
+Size:200000000
+Order:randomOrder
+Time:66.766000 seconds
+

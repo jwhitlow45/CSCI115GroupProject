@@ -1,0 +1,375 @@
+Quick Sort
+Size:1000000
+Order:inOrder
+Time:0.095000 seconds
+
+Quick Sort
+Size:1000000
+Order:inOrder
+Time:0.106000 seconds
+
+Quick Sort
+Size:1000000
+Order:inOrder
+Time:0.120000 seconds
+
+Quick Sort
+Size:1000000
+Order:inOrder
+Time:0.096000 seconds
+
+Quick Sort
+Size:1000000
+Order:inOrder
+Time:0.095000 seconds
+
+Quick Sort
+Size:1000000
+Order:reverseOrder
+Time:0.150000 seconds
+
+Quick Sort
+Size:1000000
+Order:reverseOrder
+Time:0.134000 seconds
+
+Quick Sort
+Size:1000000
+Order:reverseOrder
+Time:0.133000 seconds
+
+Quick Sort
+Size:1000000
+Order:reverseOrder
+Time:0.148000 seconds
+
+Quick Sort
+Size:1000000
+Order:reverseOrder
+Time:0.149000 seconds
+
+Quick Sort
+Size:1000000
+Order:randomOrder
+Time:0.164000 seconds
+
+Quick Sort
+Size:1000000
+Order:randomOrder
+Time:0.167000 seconds
+
+Quick Sort
+Size:1000000
+Order:randomOrder
+Time:0.164000 seconds
+
+Quick Sort
+Size:1000000
+Order:randomOrder
+Time:0.166000 seconds
+
+Quick Sort
+Size:1000000
+Order:randomOrder
+Time:0.164000 seconds
+
+Quick Sort
+Size:5000000
+Order:inOrder
+Time:1.672000 seconds
+
+Quick Sort
+Size:5000000
+Order:inOrder
+Time:1.743000 seconds
+
+Quick Sort
+Size:5000000
+Order:inOrder
+Time:1.722000 seconds
+
+Quick Sort
+Size:5000000
+Order:inOrder
+Time:1.801000 seconds
+
+Quick Sort
+Size:5000000
+Order:inOrder
+Time:1.802000 seconds
+
+Quick Sort
+Size:5000000
+Order:reverseOrder
+Time:2.550000 seconds
+
+Quick Sort
+Size:5000000
+Order:reverseOrder
+Time:2.350000 seconds
+
+Quick Sort
+Size:5000000
+Order:reverseOrder
+Time:2.660000 seconds
+
+Quick Sort
+Size:5000000
+Order:reverseOrder
+Time:2.285000 seconds
+
+Quick Sort
+Size:5000000
+Order:reverseOrder
+Time:2.401000 seconds
+
+Quick Sort
+Size:5000000
+Order:randomOrder
+Time:1.505000 seconds
+
+Quick Sort
+Size:5000000
+Order:randomOrder
+Time:1.486000 seconds
+
+Quick Sort
+Size:5000000
+Order:randomOrder
+Time:1.494000 seconds
+
+Quick Sort
+Size:5000000
+Order:randomOrder
+Time:1.491000 seconds
+
+Quick Sort
+Size:5000000
+Order:randomOrder
+Time:1.492000 seconds
+
+Quick Sort
+Size:10000000
+Order:inOrder
+Time:6.762000 seconds
+
+Quick Sort
+Size:10000000
+Order:inOrder
+Time:6.826000 seconds
+
+Quick Sort
+Size:10000000
+Order:inOrder
+Time:6.075000 seconds
+
+Quick Sort
+Size:10000000
+Order:inOrder
+Time:6.729000 seconds
+
+Quick Sort
+Size:10000000
+Order:inOrder
+Time:6.430000 seconds
+
+Quick Sort
+Size:10000000
+Order:reverseOrder
+Time:9.145000 seconds
+
+Quick Sort
+Size:10000000
+Order:reverseOrder
+Time:8.892000 seconds
+
+Quick Sort
+Size:10000000
+Order:reverseOrder
+Time:9.019000 seconds
+
+Quick Sort
+Size:10000000
+Order:reverseOrder
+Time:8.314000 seconds
+
+Quick Sort
+Size:10000000
+Order:reverseOrder
+Time:8.627000 seconds
+
+Quick Sort
+Size:10000000
+Order:randomOrder
+Time:4.553000 seconds
+
+Quick Sort
+Size:10000000
+Order:randomOrder
+Time:4.557000 seconds
+
+Quick Sort
+Size:10000000
+Order:randomOrder
+Time:4.556000 seconds
+
+Quick Sort
+Size:10000000
+Order:randomOrder
+Time:4.559000 seconds
+
+Quick Sort
+Size:10000000
+Order:randomOrder
+Time:4.554000 seconds
+
+Quick Sort
+Size:20000000
+Order:inOrder
+Time:23.510000 seconds
+
+Quick Sort
+Size:20000000
+Order:inOrder
+Time:23.390000 seconds
+
+Quick Sort
+Size:20000000
+Order:inOrder
+Time:24.142000 seconds
+
+Quick Sort
+Size:20000000
+Order:inOrder
+Time:23.566000 seconds
+
+Quick Sort
+Size:20000000
+Order:inOrder
+Time:24.047000 seconds
+
+Quick Sort
+Size:20000000
+Order:reverseOrder
+Time:33.891000 seconds
+
+Quick Sort
+Size:20000000
+Order:reverseOrder
+Time:33.844000 seconds
+
+Quick Sort
+Size:20000000
+Order:reverseOrder
+Time:35.292000 seconds
+
+Quick Sort
+Size:20000000
+Order:reverseOrder
+Time:34.683000 seconds
+
+Quick Sort
+Size:20000000
+Order:reverseOrder
+Time:34.186000 seconds
+
+Quick Sort
+Size:20000000
+Order:randomOrder
+Time:15.524000 seconds
+
+Quick Sort
+Size:20000000
+Order:randomOrder
+Time:15.522000 seconds
+
+Quick Sort
+Size:20000000
+Order:randomOrder
+Time:15.504000 seconds
+
+Quick Sort
+Size:20000000
+Order:randomOrder
+Time:15.521000 seconds
+
+Quick Sort
+Size:20000000
+Order:randomOrder
+Time:15.528000 seconds
+
+Quick Sort
+Size:50000000
+Order:inOrder
+Time:143.499000 seconds
+
+Quick Sort
+Size:50000000
+Order:inOrder
+Time:145.330000 seconds
+
+Quick Sort
+Size:50000000
+Order:inOrder
+Time:141.019000 seconds
+
+Quick Sort
+Size:50000000
+Order:inOrder
+Time:148.196000 seconds
+
+Quick Sort
+Size:50000000
+Order:inOrder
+Time:141.984000 seconds
+
+Quick Sort
+Size:50000000
+Order:reverseOrder
+Time:213.049000 seconds
+
+Quick Sort
+Size:50000000
+Order:reverseOrder
+Time:209.623000 seconds
+
+Quick Sort
+Size:50000000
+Order:reverseOrder
+Time:213.853000 seconds
+
+Quick Sort
+Size:50000000
+Order:reverseOrder
+Time:213.910000 seconds
+
+Quick Sort
+Size:50000000
+Order:reverseOrder
+Time:215.046000 seconds
+
+Quick Sort
+Size:50000000
+Order:randomOrder
+Time:86.930000 seconds
+
+Quick Sort
+Size:50000000
+Order:randomOrder
+Time:86.971000 seconds
+
+Quick Sort
+Size:50000000
+Order:randomOrder
+Time:86.959000 seconds
+
+Quick Sort
+Size:50000000
+Order:randomOrder
+Time:87.023000 seconds
+
+Quick Sort
+Size:50000000
+Order:randomOrder
+Time:86.970000 seconds
+

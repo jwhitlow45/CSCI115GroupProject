@@ -1,0 +1,1125 @@
+Heap Sort
+Size:1000000
+Order:inOrder
+Time:0.184000 seconds
+
+Heap Sort
+Size:1000000
+Order:inOrder
+Time:0.219000 seconds
+
+Heap Sort
+Size:1000000
+Order:inOrder
+Time:0.205000 seconds
+
+Heap Sort
+Size:1000000
+Order:inOrder
+Time:0.220000 seconds
+
+Heap Sort
+Size:1000000
+Order:inOrder
+Time:0.222000 seconds
+
+Heap Sort
+Size:1000000
+Order:reverseOrder
+Time:0.168000 seconds
+
+Heap Sort
+Size:1000000
+Order:reverseOrder
+Time:0.170000 seconds
+
+Heap Sort
+Size:1000000
+Order:reverseOrder
+Time:0.168000 seconds
+
+Heap Sort
+Size:1000000
+Order:reverseOrder
+Time:0.195000 seconds
+
+Heap Sort
+Size:1000000
+Order:reverseOrder
+Time:0.197000 seconds
+
+Heap Sort
+Size:1000000
+Order:randomOrder
+Time:0.289000 seconds
+
+Heap Sort
+Size:1000000
+Order:randomOrder
+Time:0.268000 seconds
+
+Heap Sort
+Size:1000000
+Order:randomOrder
+Time:0.283000 seconds
+
+Heap Sort
+Size:1000000
+Order:randomOrder
+Time:0.292000 seconds
+
+Heap Sort
+Size:1000000
+Order:randomOrder
+Time:0.282000 seconds
+
+Heap Sort
+Size:5000000
+Order:inOrder
+Time:1.118000 seconds
+
+Heap Sort
+Size:5000000
+Order:inOrder
+Time:1.066000 seconds
+
+Heap Sort
+Size:5000000
+Order:inOrder
+Time:1.130000 seconds
+
+Heap Sort
+Size:5000000
+Order:inOrder
+Time:1.079000 seconds
+
+Heap Sort
+Size:5000000
+Order:inOrder
+Time:1.063000 seconds
+
+Heap Sort
+Size:5000000
+Order:reverseOrder
+Time:1.016000 seconds
+
+Heap Sort
+Size:5000000
+Order:reverseOrder
+Time:1.022000 seconds
+
+Heap Sort
+Size:5000000
+Order:reverseOrder
+Time:1.113000 seconds
+
+Heap Sort
+Size:5000000
+Order:reverseOrder
+Time:1.047000 seconds
+
+Heap Sort
+Size:5000000
+Order:reverseOrder
+Time:1.051000 seconds
+
+Heap Sort
+Size:5000000
+Order:randomOrder
+Time:1.611000 seconds
+
+Heap Sort
+Size:5000000
+Order:randomOrder
+Time:1.527000 seconds
+
+Heap Sort
+Size:5000000
+Order:randomOrder
+Time:1.573000 seconds
+
+Heap Sort
+Size:5000000
+Order:randomOrder
+Time:1.626000 seconds
+
+Heap Sort
+Size:5000000
+Order:randomOrder
+Time:1.560000 seconds
+
+Heap Sort
+Size:10000000
+Order:inOrder
+Time:2.345000 seconds
+
+Heap Sort
+Size:10000000
+Order:inOrder
+Time:2.264000 seconds
+
+Heap Sort
+Size:10000000
+Order:inOrder
+Time:2.195000 seconds
+
+Heap Sort
+Size:10000000
+Order:inOrder
+Time:2.318000 seconds
+
+Heap Sort
+Size:10000000
+Order:inOrder
+Time:2.368000 seconds
+
+Heap Sort
+Size:10000000
+Order:reverseOrder
+Time:2.199000 seconds
+
+Heap Sort
+Size:10000000
+Order:reverseOrder
+Time:2.346000 seconds
+
+Heap Sort
+Size:10000000
+Order:reverseOrder
+Time:2.208000 seconds
+
+Heap Sort
+Size:10000000
+Order:reverseOrder
+Time:2.242000 seconds
+
+Heap Sort
+Size:10000000
+Order:reverseOrder
+Time:2.173000 seconds
+
+Heap Sort
+Size:10000000
+Order:randomOrder
+Time:3.464000 seconds
+
+Heap Sort
+Size:10000000
+Order:randomOrder
+Time:3.431000 seconds
+
+Heap Sort
+Size:10000000
+Order:randomOrder
+Time:3.606000 seconds
+
+Heap Sort
+Size:10000000
+Order:randomOrder
+Time:3.649000 seconds
+
+Heap Sort
+Size:10000000
+Order:randomOrder
+Time:3.769000 seconds
+
+Heap Sort
+Size:100000000
+Order:inOrder
+Time:25.756000 seconds
+
+Heap Sort
+Size:100000000
+Order:inOrder
+Time:25.133000 seconds
+
+Heap Sort
+Size:100000000
+Order:inOrder
+Time:24.928000 seconds
+
+Heap Sort
+Size:100000000
+Order:inOrder
+Time:25.089000 seconds
+
+Heap Sort
+Size:100000000
+Order:inOrder
+Time:25.217000 seconds
+
+Heap Sort
+Size:100000000
+Order:reverseOrder
+Time:24.760000 seconds
+
+Heap Sort
+Size:100000000
+Order:reverseOrder
+Time:24.649000 seconds
+
+Heap Sort
+Size:100000000
+Order:reverseOrder
+Time:24.899000 seconds
+
+Heap Sort
+Size:100000000
+Order:reverseOrder
+Time:25.212000 seconds
+
+Heap Sort
+Size:100000000
+Order:reverseOrder
+Time:24.911000 seconds
+
+Heap Sort
+Size:100000000
+Order:randomOrder
+Time:50.639000 seconds
+
+Heap Sort
+Size:100000000
+Order:randomOrder
+Time:50.508000 seconds
+
+Heap Sort
+Size:100000000
+Order:randomOrder
+Time:50.179000 seconds
+
+Heap Sort
+Size:100000000
+Order:randomOrder
+Time:50.215000 seconds
+
+Heap Sort
+Size:100000000
+Order:randomOrder
+Time:50.688000 seconds
+
+Heap Sort
+Size:200000000
+Order:inOrder
+Time:52.828000 seconds
+
+Heap Sort
+Size:200000000
+Order:inOrder
+Time:52.498000 seconds
+
+Heap Sort
+Size:200000000
+Order:inOrder
+Time:52.639000 seconds
+
+Heap Sort
+Size:200000000
+Order:inOrder
+Time:52.564000 seconds
+
+Heap Sort
+Size:200000000
+Order:inOrder
+Time:52.808000 seconds
+
+Heap Sort
+Size:200000000
+Order:reverseOrder
+Time:51.674000 seconds
+
+Heap Sort
+Size:200000000
+Order:reverseOrder
+Time:52.304000 seconds
+
+Heap Sort
+Size:200000000
+Order:reverseOrder
+Time:51.798000 seconds
+
+Heap Sort
+Size:200000000
+Order:reverseOrder
+Time:51.628000 seconds
+
+Heap Sort
+Size:200000000
+Order:reverseOrder
+Time:51.954000 seconds
+
+Heap Sort
+Size:200000000
+Order:randomOrder
+Time:110.480000 seconds
+
+Heap Sort
+Size:200000000
+Order:randomOrder
+Time:110.398000 seconds
+
+Heap Sort
+Size:200000000
+Order:randomOrder
+Time:109.257000 seconds
+
+Heap Sort
+Size:200000000
+Order:randomOrder
+Time:111.222000 seconds
+
+Heap Sort
+Size:200000000
+Order:randomOrder
+Time:110.709000 seconds
+
+Counting Sort
+Size:1000000
+Order:inOrder
+Time:0.017000 seconds
+
+Counting Sort
+Size:1000000
+Order:inOrder
+Time:0.015000 seconds
+
+Counting Sort
+Size:1000000
+Order:inOrder
+Time:0.017000 seconds
+
+Counting Sort
+Size:1000000
+Order:inOrder
+Time:0.016000 seconds
+
+Counting Sort
+Size:1000000
+Order:inOrder
+Time:0.014000 seconds
+
+Counting Sort
+Size:1000000
+Order:reverseOrder
+Time:0.014000 seconds
+
+Counting Sort
+Size:1000000
+Order:reverseOrder
+Time:0.014000 seconds
+
+Counting Sort
+Size:1000000
+Order:reverseOrder
+Time:0.014000 seconds
+
+Counting Sort
+Size:1000000
+Order:reverseOrder
+Time:0.015000 seconds
+
+Counting Sort
+Size:1000000
+Order:reverseOrder
+Time:0.014000 seconds
+
+Counting Sort
+Size:1000000
+Order:randomOrder
+Time:0.014000 seconds
+
+Counting Sort
+Size:1000000
+Order:randomOrder
+Time:0.013000 seconds
+
+Counting Sort
+Size:1000000
+Order:randomOrder
+Time:0.013000 seconds
+
+Counting Sort
+Size:1000000
+Order:randomOrder
+Time:0.014000 seconds
+
+Counting Sort
+Size:1000000
+Order:randomOrder
+Time:0.013000 seconds
+
+Counting Sort
+Size:5000000
+Order:inOrder
+Time:0.076000 seconds
+
+Counting Sort
+Size:5000000
+Order:inOrder
+Time:0.095000 seconds
+
+Counting Sort
+Size:5000000
+Order:inOrder
+Time:0.096000 seconds
+
+Counting Sort
+Size:5000000
+Order:inOrder
+Time:0.086000 seconds
+
+Counting Sort
+Size:5000000
+Order:inOrder
+Time:0.090000 seconds
+
+Counting Sort
+Size:5000000
+Order:reverseOrder
+Time:0.076000 seconds
+
+Counting Sort
+Size:5000000
+Order:reverseOrder
+Time:0.072000 seconds
+
+Counting Sort
+Size:5000000
+Order:reverseOrder
+Time:0.072000 seconds
+
+Counting Sort
+Size:5000000
+Order:reverseOrder
+Time:0.073000 seconds
+
+Counting Sort
+Size:5000000
+Order:reverseOrder
+Time:0.079000 seconds
+
+Counting Sort
+Size:5000000
+Order:randomOrder
+Time:0.072000 seconds
+
+Counting Sort
+Size:5000000
+Order:randomOrder
+Time:0.081000 seconds
+
+Counting Sort
+Size:5000000
+Order:randomOrder
+Time:0.074000 seconds
+
+Counting Sort
+Size:5000000
+Order:randomOrder
+Time:0.080000 seconds
+
+Counting Sort
+Size:5000000
+Order:randomOrder
+Time:0.080000 seconds
+
+Counting Sort
+Size:10000000
+Order:inOrder
+Time:0.162000 seconds
+
+Counting Sort
+Size:10000000
+Order:inOrder
+Time:0.160000 seconds
+
+Counting Sort
+Size:10000000
+Order:inOrder
+Time:0.182000 seconds
+
+Counting Sort
+Size:10000000
+Order:inOrder
+Time:0.184000 seconds
+
+Counting Sort
+Size:10000000
+Order:inOrder
+Time:0.200000 seconds
+
+Counting Sort
+Size:10000000
+Order:reverseOrder
+Time:0.199000 seconds
+
+Counting Sort
+Size:10000000
+Order:reverseOrder
+Time:0.157000 seconds
+
+Counting Sort
+Size:10000000
+Order:reverseOrder
+Time:0.150000 seconds
+
+Counting Sort
+Size:10000000
+Order:reverseOrder
+Time:0.143000 seconds
+
+Counting Sort
+Size:10000000
+Order:reverseOrder
+Time:0.169000 seconds
+
+Counting Sort
+Size:10000000
+Order:randomOrder
+Time:0.168000 seconds
+
+Counting Sort
+Size:10000000
+Order:randomOrder
+Time:0.154000 seconds
+
+Counting Sort
+Size:10000000
+Order:randomOrder
+Time:0.164000 seconds
+
+Counting Sort
+Size:10000000
+Order:randomOrder
+Time:0.157000 seconds
+
+Counting Sort
+Size:10000000
+Order:randomOrder
+Time:0.165000 seconds
+
+Counting Sort
+Size:100000000
+Order:inOrder
+Time:1.885000 seconds
+
+Counting Sort
+Size:100000000
+Order:inOrder
+Time:2.009000 seconds
+
+Counting Sort
+Size:100000000
+Order:inOrder
+Time:1.788000 seconds
+
+Counting Sort
+Size:100000000
+Order:inOrder
+Time:1.663000 seconds
+
+Counting Sort
+Size:100000000
+Order:inOrder
+Time:1.904000 seconds
+
+Counting Sort
+Size:100000000
+Order:reverseOrder
+Time:1.666000 seconds
+
+Counting Sort
+Size:100000000
+Order:reverseOrder
+Time:1.716000 seconds
+
+Counting Sort
+Size:100000000
+Order:reverseOrder
+Time:1.431000 seconds
+
+Counting Sort
+Size:100000000
+Order:reverseOrder
+Time:1.720000 seconds
+
+Counting Sort
+Size:100000000
+Order:reverseOrder
+Time:1.666000 seconds
+
+Counting Sort
+Size:100000000
+Order:randomOrder
+Time:1.730000 seconds
+
+Counting Sort
+Size:100000000
+Order:randomOrder
+Time:1.768000 seconds
+
+Counting Sort
+Size:100000000
+Order:randomOrder
+Time:1.770000 seconds
+
+Counting Sort
+Size:100000000
+Order:randomOrder
+Time:1.779000 seconds
+
+Counting Sort
+Size:100000000
+Order:randomOrder
+Time:1.702000 seconds
+
+Counting Sort
+Size:200000000
+Order:inOrder
+Time:3.501000 seconds
+
+Counting Sort
+Size:200000000
+Order:inOrder
+Time:3.592000 seconds
+
+Counting Sort
+Size:200000000
+Order:inOrder
+Time:3.657000 seconds
+
+Counting Sort
+Size:200000000
+Order:inOrder
+Time:3.749000 seconds
+
+Counting Sort
+Size:200000000
+Order:inOrder
+Time:3.872000 seconds
+
+Counting Sort
+Size:200000000
+Order:reverseOrder
+Time:4.028000 seconds
+
+Counting Sort
+Size:200000000
+Order:reverseOrder
+Time:3.412000 seconds
+
+Counting Sort
+Size:200000000
+Order:reverseOrder
+Time:3.005000 seconds
+
+Counting Sort
+Size:200000000
+Order:reverseOrder
+Time:3.406000 seconds
+
+Counting Sort
+Size:200000000
+Order:reverseOrder
+Time:3.314000 seconds
+
+Counting Sort
+Size:200000000
+Order:randomOrder
+Time:3.734000 seconds
+
+Counting Sort
+Size:200000000
+Order:randomOrder
+Time:3.552000 seconds
+
+Counting Sort
+Size:200000000
+Order:randomOrder
+Time:3.660000 seconds
+
+Counting Sort
+Size:200000000
+Order:randomOrder
+Time:3.579000 seconds
+
+Counting Sort
+Size:200000000
+Order:randomOrder
+Time:3.450000 seconds
+
+Radix Sort
+Size:1000000
+Order:inOrder
+Time:0.491000 seconds
+
+Radix Sort
+Size:1000000
+Order:inOrder
+Time:0.488000 seconds
+
+Radix Sort
+Size:1000000
+Order:inOrder
+Time:0.489000 seconds
+
+Radix Sort
+Size:1000000
+Order:inOrder
+Time:0.486000 seconds
+
+Radix Sort
+Size:1000000
+Order:inOrder
+Time:0.486000 seconds
+
+Radix Sort
+Size:1000000
+Order:reverseOrder
+Time:0.482000 seconds
+
+Radix Sort
+Size:1000000
+Order:reverseOrder
+Time:0.487000 seconds
+
+Radix Sort
+Size:1000000
+Order:reverseOrder
+Time:0.486000 seconds
+
+Radix Sort
+Size:1000000
+Order:reverseOrder
+Time:0.486000 seconds
+
+Radix Sort
+Size:1000000
+Order:reverseOrder
+Time:0.489000 seconds
+
+Radix Sort
+Size:1000000
+Order:randomOrder
+Time:0.370000 seconds
+
+Radix Sort
+Size:1000000
+Order:randomOrder
+Time:0.374000 seconds
+
+Radix Sort
+Size:1000000
+Order:randomOrder
+Time:0.372000 seconds
+
+Radix Sort
+Size:1000000
+Order:randomOrder
+Time:0.372000 seconds
+
+Radix Sort
+Size:1000000
+Order:randomOrder
+Time:0.371000 seconds
+
+Radix Sort
+Size:5000000
+Order:inOrder
+Time:2.981000 seconds
+
+Radix Sort
+Size:5000000
+Order:inOrder
+Time:3.008000 seconds
+
+Radix Sort
+Size:5000000
+Order:inOrder
+Time:3.017000 seconds
+
+Radix Sort
+Size:5000000
+Order:inOrder
+Time:3.011000 seconds
+
+Radix Sort
+Size:5000000
+Order:inOrder
+Time:3.006000 seconds
+
+Radix Sort
+Size:5000000
+Order:reverseOrder
+Time:2.987000 seconds
+
+Radix Sort
+Size:5000000
+Order:reverseOrder
+Time:2.995000 seconds
+
+Radix Sort
+Size:5000000
+Order:reverseOrder
+Time:3.024000 seconds
+
+Radix Sort
+Size:5000000
+Order:reverseOrder
+Time:3.008000 seconds
+
+Radix Sort
+Size:5000000
+Order:reverseOrder
+Time:2.990000 seconds
+
+Radix Sort
+Size:5000000
+Order:randomOrder
+Time:1.854000 seconds
+
+Radix Sort
+Size:5000000
+Order:randomOrder
+Time:1.866000 seconds
+
+Radix Sort
+Size:5000000
+Order:randomOrder
+Time:1.870000 seconds
+
+Radix Sort
+Size:5000000
+Order:randomOrder
+Time:1.859000 seconds
+
+Radix Sort
+Size:5000000
+Order:randomOrder
+Time:1.855000 seconds
+
+Radix Sort
+Size:10000000
+Order:inOrder
+Time:6.058000 seconds
+
+Radix Sort
+Size:10000000
+Order:inOrder
+Time:6.051000 seconds
+
+Radix Sort
+Size:10000000
+Order:inOrder
+Time:6.054000 seconds
+
+Radix Sort
+Size:10000000
+Order:inOrder
+Time:6.013000 seconds
+
+Radix Sort
+Size:10000000
+Order:inOrder
+Time:6.048000 seconds
+
+Radix Sort
+Size:10000000
+Order:reverseOrder
+Time:6.012000 seconds
+
+Radix Sort
+Size:10000000
+Order:reverseOrder
+Time:6.033000 seconds
+
+Radix Sort
+Size:10000000
+Order:reverseOrder
+Time:6.056000 seconds
+
+Radix Sort
+Size:10000000
+Order:reverseOrder
+Time:6.002000 seconds
+
+Radix Sort
+Size:10000000
+Order:reverseOrder
+Time:6.082000 seconds
+
+Radix Sort
+Size:10000000
+Order:randomOrder
+Time:3.759000 seconds
+
+Radix Sort
+Size:10000000
+Order:randomOrder
+Time:3.731000 seconds
+
+Radix Sort
+Size:10000000
+Order:randomOrder
+Time:3.776000 seconds
+
+Radix Sort
+Size:10000000
+Order:randomOrder
+Time:3.731000 seconds
+
+Radix Sort
+Size:10000000
+Order:randomOrder
+Time:3.770000 seconds
+
+Radix Sort
+Size:100000000
+Order:inOrder
+Time:72.400000 seconds
+
+Radix Sort
+Size:100000000
+Order:inOrder
+Time:72.689000 seconds
+
+Radix Sort
+Size:100000000
+Order:inOrder
+Time:72.696000 seconds
+
+Radix Sort
+Size:100000000
+Order:inOrder
+Time:72.440000 seconds
+
+Radix Sort
+Size:100000000
+Order:inOrder
+Time:72.451000 seconds
+
+Radix Sort
+Size:100000000
+Order:reverseOrder
+Time:72.789000 seconds
+
+Radix Sort
+Size:100000000
+Order:reverseOrder
+Time:72.878000 seconds
+
+Radix Sort
+Size:100000000
+Order:reverseOrder
+Time:72.690000 seconds
+
+Radix Sort
+Size:100000000
+Order:reverseOrder
+Time:72.740000 seconds
+
+Radix Sort
+Size:100000000
+Order:reverseOrder
+Time:72.855000 seconds
+
+Radix Sort
+Size:100000000
+Order:randomOrder
+Time:37.837000 seconds
+
+Radix Sort
+Size:100000000
+Order:randomOrder
+Time:37.703000 seconds
+
+Radix Sort
+Size:100000000
+Order:randomOrder
+Time:37.717000 seconds
+
+Radix Sort
+Size:100000000
+Order:randomOrder
+Time:37.597000 seconds
+
+Radix Sort
+Size:100000000
+Order:randomOrder
+Time:37.815000 seconds
+
+Radix Sort
+Size:200000000
+Order:inOrder
+Time:166.891000 seconds
+
+Radix Sort
+Size:200000000
+Order:inOrder
+Time:166.394000 seconds
+
+Radix Sort
+Size:200000000
+Order:inOrder
+Time:166.620000 seconds
+
+Radix Sort
+Size:200000000
+Order:inOrder
+Time:167.218000 seconds
+
+Radix Sort
+Size:200000000
+Order:inOrder
+Time:166.211000 seconds
+
+Radix Sort
+Size:200000000
+Order:reverseOrder
+Time:167.707000 seconds
+
+Radix Sort
+Size:200000000
+Order:reverseOrder
+Time:167.851000 seconds
+
+Radix Sort
+Size:200000000
+Order:reverseOrder
+Time:167.316000 seconds
+
+Radix Sort
+Size:200000000
+Order:reverseOrder
+Time:168.085000 seconds
+
+Radix Sort
+Size:200000000
+Order:reverseOrder
+Time:167.366000 seconds
+
+Radix Sort
+Size:200000000
+Order:randomOrder
+Time:75.332000 seconds
+
+Radix Sort
+Size:200000000
+Order:randomOrder
+Time:75.672000 seconds
+
+Radix Sort
+Size:200000000
+Order:randomOrder
+Time:75.367000 seconds
+
+Radix Sort
+Size:200000000
+Order:randomOrder
+Time:75.347000 seconds
+
+Radix Sort
+Size:200000000
+Order:randomOrder
+Time:76.110000 seconds
+
