@@ -8,7 +8,7 @@ The purpose of this project was to perform analysis on different sorting algorit
 
 [Marc](https://github.com/mbnty) - Quick sort, graph creation, presentation editing
 
-[Jacob](https://github.com/jwhitlow45)- Insertion sort, main file, tested and compiled experiemental data, presentation editing, two sum - shrinking approach
+[Jacob](https://github.com/jwhitlow45) - Insertion sort, main file, tested and compiled experiemental data, presentation editing, two sum - shrinking approach
 
 [Juan](https://github.com/mennymendoza) - Heap sort, graph creation, report editing, presentation editing
 
