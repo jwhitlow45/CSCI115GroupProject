@@ -6,8 +6,6 @@ The purpose of this project was to perform analysis on different sorting algorit
 ## Contributors
 [Carlo](https://github.com/RichardPhist) - Bubble sort, tested and compiled expirimental data, report editing
 
-[Marc](https://github.com/mbnty) - Quick sort, graph creation, presentation editing
-
 [Jacob](https://github.com/jwhitlow45) - Insertion sort, main file, tested and compiled experiemental data, presentation editing, two sum - shrinking approach
 
 [Juan](https://github.com/mennymendoza) - Heap sort, graph creation, report editing, presentation editing
@@ -15,5 +13,7 @@ The purpose of this project was to perform analysis on different sorting algorit
 [Julie](https://github.com/julietaMendez) - Selection sort, gathered time complexities, graph creation, report editing
 
 [Malee](https://github.com/MSeechan) - Merge sort, report editing, presentation editing
+
+[Marc](https://github.com/mbnty) - Quick sort, graph creation, presentation editing
 
 [Ryan](https://github.com/Ryan1Up) - Radix sort, counting sort, tested and compiled experimental data, graph creation, two sum - hash map approach
